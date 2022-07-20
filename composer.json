@@ -1,0 +1,23 @@
+{
+    "name": "root/reponew",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Root\\Reponew\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ahmed-elsimary",
+            "email": "ahmed.s@ergasti.com"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "^6.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "johnpbloch/wordpress-core-installer": true
+        }
+    }
+}
